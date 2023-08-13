@@ -1,7 +1,9 @@
-package global.goit.edu.module5;
+package global.goit.edu.module5.engine;
+
+import global.goit.edu.module5.engine.XFuelEngine;
 
 public class AdvancedXFuelEngine extends XFuelEngine {
-    private int power;
+/*    private int power;
     private String serialNumber;
 
     @Override
@@ -17,14 +19,13 @@ public class AdvancedXFuelEngine extends XFuelEngine {
     public String getSerialNumber() {
         return serialNumber;
     }
-
     @Override
     public void setSerialNumber(String serialNumber) {
         this.serialNumber = serialNumber;
-    }
+    }*/
 
     public void printInfo() {
-        System.out.println("Serial number is " + serialNumber + ", power is " + power);
+        System.out.println("Serial number is " + serialNumber + ", power is " + getPower());
     }
 
 }

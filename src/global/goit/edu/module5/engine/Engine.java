@@ -1,4 +1,4 @@
-package global.goit.edu.module5;
+package global.goit.edu.module5.engine;
 
 public class Engine {
 
